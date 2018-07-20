@@ -1,0 +1,15 @@
+{
+  "name": "hota-scripts-demo",
+  "version": "0.0.0",
+  "description": "demo for hota-scripts",
+  "private": false,
+  "keywords": [
+    "hota-scripts",
+    "demo"
+  ],
+  "author": "drakeleung42@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "hota-scripts": "^0.7.5"
+  }
+}

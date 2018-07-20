@@ -1,0 +1,18 @@
+$primary-color: #333;
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+body {
+  @include border-radius(10px);
+
+  color: $primary-color;
+}
+
+// bem
+.foo {
+  &__bar {
+    color: 'red';
+  }
+}

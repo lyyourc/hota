@@ -1,0 +1,5 @@
+.foo {
+  margin-top: 10px;
+  top: 0;
+  color: var(--color-red);
+}

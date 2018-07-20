@@ -1,0 +1,18 @@
+{
+  "name": "eslint-config-hota-prettier",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2"
+  },
+  "peerDependencies": {
+    "eslint-plugin-prettier": "^2.6.2"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "hota-scripts",
+  "version": "0.7.5",
+  "description": "",
+  "main": "bin/hota-scripts.js",
+  "private": false,
+  "bin": {
+    "hota-scripts": "bin/hota-scripts.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "prepub": "npm test",
+    "pub": "np --yolo"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "jest": {
+    "testMatch": [
+      "**/__tests__/**/*.test.js"
+    ]
+  },
+  "keywords": [
+    "scripts"
+  ],
+  "author": "drakeleung42@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@commitlint/cli": "^5.2.0",
+    "commitlint-config-hota": "^0.0.1",
+    "eslint-config-hota": "^0.0.1",
+    "eslint-config-hota-prettier": "^0.0.1",
+    "eslint-config-hota-vue": "^0.0.1",
+    "stylelint-config-hota": "^0.0.1",
+    "babel-eslint": "^8.2.6",
+    "cosmiconfig": "^3.1.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-vue": "^4.7.0",
+    "execa": "^0.8.0",
+    "fs-extra": "^4.0.3",
+    "husky": "^1.0.0-rc.13",
+    "inquirer": "^4.0.1",
+    "lint-staged": "^5.0.0",
+    "listr": "^0.13.0",
+    "npm-which": "^3.0.1",
+    "prettier": "^1.11.0",
+    "stylelint": "^9.3.0",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "jest": "^23.4.1",
+    "jest-in-case": "^1.0.2",
+    "np": "^2.18.3"
+  }
+}
